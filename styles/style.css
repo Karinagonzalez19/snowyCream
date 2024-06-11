@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:mediumorchid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    width: 25vw;
+}
+header nav a{
+    font-size: 20px;
+    margin-left: 1vw;
+    color:black;
+}
+.icon{
+    background-color: aqua;
+    border: 1px solid pink;
+}
+header .img-header{
+    width: 5vw;
+    padding-left: 60vw;
+}
+header .img-header img{
+   width: 100%; 
+}
+
+
+main{
+    background-color:rgb(224, 193, 224);
+}
+main .title{
+    text-align: center;
+    
+}
+main .title h1{
+    margin-top: 0;
+    font-size: 30px;
+    color:black
+} 
+main .title h2{
+    font-size: 28px;
+    color:blueviolet;
+    margin-bottom: 15px;
+
+}
+main .banner{
+    width: 100%;
+}
+main .banner img{
+    object-fit: cover;
+    width: 100%;
+    height: 35vh;
+}
+main .continfo{
+    display: flex;
+    text-align: justify;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    padding-bottom: 4vh;
+    align-items: center;
+} 
+main .continfo .info{
+    width: 36vw;
+    padding-right: 5vw;
+}
+main .continfo .info p{
+    font-size: 20px;
+}
+main .continfo .cont{
+    width:40%;
+    height: 40vh;
+}
+main .continfo .cont img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer{
+    padding: 1vh;
+    background-color: plum;
+    text-align:center;
+}
+
+.aboutus{
+    padding-bottom: 10vh;
+}
+
+.frutbuss{
+    padding-bottom:5vh;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.frutbuss .frut{
+    width: 30vw;
+    height: 30vh;
+} 
+.frutbuss .frut img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+.frutbuss .business{
+    text-align: justify;
+    width: 20vw;
+    height: 20vh;
+}
+.frutbuss .business p{
+    font-size: 26px;
+}
+
+.cream{
+    width: 36%;
+    height:20%;
+    padding-left:31vw;
+} 
+.cream img{
+    width: 100%;
+    height: 100%;
+}
+.created{
+    width: 40%;
+    height:20%;
+    padding-left:35vw;
+}
+.contact{
+    padding-top: 6vh;
+    padding-bottom: 20vh;
+}
+.created p{
+    font-size: 20px;
+}
+.email{
+    padding-left:24vw;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+.email p{
+    margin-left: 6vw;
+    font-size: 23px;
+}
+
