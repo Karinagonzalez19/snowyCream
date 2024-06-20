@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/images-sprint1/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>SNOWY CREAM-RAFFLE</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="./aboutus.html">About Us</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./information.html">Information</a>
+            <a href="./benefitstips.html">Benefits</a>
+            <a href="#" class="icon">Raffle</a>
+        </nav>
+
+        <div class="img-header">
+            <img src="../assets/images-sprint1/logo.png" alt="">
+        </div>
+    </header>
+    <main class="maps">
+
+        <section class="title">
+            <h1>RAFFLE</h1>
+            <h2>You can collaborate to hold an exhibition event and partipate in a raffle to win an easel.</h2>
+        </section>
+        <div class="mapboton">
+            <div class="map">
+                <p>Our location is locate at:</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d826.6663560580753!2d-118.20205943044414!3d34.026798109798555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2cf4df32c91fb%3A0xd24c215ded3e2630!2s3401%20Siskiyou%20St%2C%20Los%20Angeles%2C%20CA%2090023%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sco!4v1718855954314!5m2!1ses-419!2sco"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="boton">
+                <form action="./show_data.html" method="get">
+
+                    <label for="firstName">First Name</label><br>
+                    <input type="text" name="firstname" id="firstName" required placeholder="Your First Name"><br>
+
+                    <label for="lastName">Last Name</label><br>
+                    <input type="text" name="lastname" id="lastName" required placeholder="Your Last Name"><br>
+
+                    <p>Choose Meet or Zoom</p>
+                    <select name="choose" id="choose">
+                        <option value="Meet">Meet</option>
+                        <option value="Zoom">Zoom</option>
+                    </select><br>
+
+                    <label for="date">Choose Date</label><br>
+                    <input type="date" name="date" id="date"><br>
+
+                    <p>Payment Options</p>
+
+                    <input type="radio" name="payment" id="cash">
+                    <label for="cash">Cash</label><br>
+
+                    <input type="radio" name="payment" id="credit">
+                    <label for="credit">Credit Card</label><br>
+
+                    <input type="radio" name="payment" id="card">
+                    <label for="card">Debit Card</label><br>
+
+                    <label for="message">Message (Optional)</label><br>
+                    <textarea name="message" id="message"></textarea><br>
+
+
+                    <input type="checkbox" name="accept" id="accept">
+                    <label for="accept">I accept terms and conditions...</label>
+
+                    <input type="submit" value="send">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Created By: Karina Gonzalez
+        </p>
+    </footer>
